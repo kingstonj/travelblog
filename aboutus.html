@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css" />
+   <link rel="shortcut icon" href="../assets/images/favico.ico" type="image/x-icon" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ps-3">
+      <a class="navbar-brand brand-anim" href="./index.html"
+        ><img
+          src="./assets/images/d9a8d9bbd5227a4abd1c5d4e250e1ef6.jpg"
+          alt="Logo"
+          width="30"
+          height="24"
+          class=" logo-anim d-inline-block align-text-top"
+        />
+        Travel Blog
+      </a>
+      <div id="city-name"></div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav d-flex justify-content-end w-100">
+          <li class="nav-item active">
+            <a class="nav-link link-anim" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-anim" href="./destination.html">Destinations</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link link-anim" href="./aboutus.html">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="heading">
+      <h1>About Us</h1>
+      <p>Welcome to our Travel Blog  where wanderlust meets exploration! We are passionate travelers and adventurers, on a mission to share our journeys and inspire your next adventure.</p>
+    </div >
+    <div class="container tile">
+
+       <section class="about-us ">
+      <img src="./assets/images/pexels-tyler-lastovich-808465.jpg" >
+      <div class="content1">
+        <h2>"Adventures Abound Exploring the World's Wonders"</h2>
+        <p>Our team of seasoned globetrotters believes that travel is not just about visiting places; it's about immersing yourself in new cultures, savoring diverse cuisines, and creating unforgettable memories. We understand the thrill of discovering hidden gems and the joy of meeting locals who share their stories.Here, you'll find a treasure trove of travel tips, destination guides, and firsthand experiences to help you plan your dream getaways. Whether you're a backpacker seeking off-the-beaten-path adventures, a luxury traveler in search of indulgence, or a family looking for kid-friendly destinations, we've got you covered.Our mission is simpleis  to ignite your wanderlust, provide practical travel advice, and promote responsible tourism. We believe in the transformative power of travel and its ability to foster connections across cultures, leaving a positive impact on both travelers and the places they visit.Join us on this exciting journey as we explore the world, one destination at a time. Let's make your travel dreams a reality and create memories that last a lifetime. Happy travels!</p>
+      </div>
+    </section>
+    </div>
+    <!--form part start-->
+ <div class="row justify-content-center">
+    <div class="col-2">
+      <!-- <img src="" alt="phone" width="300" class="img-fluid"> -->
+    </div>
+  <div class="col-5">
+    <h1 class="display-3 fw-normal hero-txt-color">Contact Us</h1>
+    <form action="https://formsubmit.co/manishsinghj7892@gmail.com" method="POST"> <!--this action i copied from FormSubmit webpage-->
+        <div class="mb-3">
+          <label for="username" class="form-label">name</label>
+          <input type="textarea" class="form-control" id="username"  name="username">
+        
+        <div class="mb-3">
+          <label for="Email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" name="Email">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="userphone" class="form-label">Phone no</label>
+          <input type="tel" class="form-control" id="userphone" name="userphone">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+    <!--form part end-->
+   
+
+
+  
+   <!-- footer -->
+    <footer>
+      <hr class="mx-5" />
+      <div class="container fluid">
+        <div class="row">
+          <div class="col text-center">
+            <p class="text-center lead"><i class="bi bi-c-circle"></i>
+             </i>copyrights@Travelblog
+            </p>
+
+            <p class="lead"><i class="bi bi-telephone"></i>
+              <a class="footer-links" href="tel:7892923049">7892903049</a>
+            </p>
+            <p class="lead"> <i class="bi bi-envelope"></i>
+              <a class="footer-links" href="mailto:manishsinghj7892@gmail.com"
+                >Travelblog@gmail.com</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer ends -->
+  </body>
+</html>
